@@ -2,7 +2,7 @@ Image Swap
 ----------
 This is a simple library that handles changing *src* attribute on a selected image tag. To be used for a large header images cropped for different screen resolutions.
 
-**NB!** This solution will not save the traffic. Large image will be loaded anyway.
+**NB!** This solution will not save the traffic. Large image will be loaded anyway. Use it if you need a fully cross-browser solution for your image to be displayed correctly on **IE6-IE10**, etc.
 
 How it works
 ------------
