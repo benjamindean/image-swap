@@ -1,6 +1,6 @@
 Image Swap
 ----------
-This is a simple library that handles changing src attribute on a selected image tag. To be used for a large heade images croped for diferent screen resolution.
+This is a simple library that handles changing *src* attribute on a selected image tag. To be used for a large header images cropped for different screen resolutions.
 
 **NB!** This solution will not save the traffic. Large image will be loaded anyway.
 
@@ -18,7 +18,7 @@ You should have something like that for you directory structure under the main i
     │   └── picture.jpg
     └── picture.jpg
 
-This kind of automatic resize/cropping can be easily accomplished by folowwing Grunt and Gulp plugins:
+This kind of automatic resize/cropping can be easily accomplished by folowing Grunt and Gulp plugins:
 
  1. [grunt-responsive-images](https://github.com/andismith/grunt-responsive-images)
  2. [grunt-clowncar](https://npmjs.org/package/grunt-clowncar)
@@ -30,7 +30,7 @@ Basic Setup
 ----------
  1. Include it on your page:	 
 
-        <script src="image-swap.js"></script>
+        <script type="text/javascript" src="image-swap.js"></script>
 
  2. Get the image ID: 
 
@@ -49,11 +49,11 @@ Basic Setup
             }
         };
 
- 4. Pass it to a new object:
+ 4. Pass the options to a newly created object:
 
         var Sizes = new ImageSwap(options);
 
- 5. Optionally, call update method on window resize to see the changes right away:
+ 5. Optionally, call update method on window resize event to see the changes right away:
  
         window.addEventListener('resize', function (event) {
             Sizes.update();
@@ -62,10 +62,10 @@ Basic Setup
 Options
 -------
 
-**picture** - ID of target <img> element.
+**picture** - ID of a target <img> element.
 
 **name** - filename of the image.
 
 **path** - full path to the image.
 
-**resolutions** - definition of small, medium and large screen sizes. This number will append to your **path** option.
+**resolutions** - definition of *small*, *medium* and *large* screen sizes. This number will append to your **path**.option.
