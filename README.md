@@ -36,12 +36,12 @@ Basic Setup
 
  		<img id="picture" src=""/>
 
-        var <b>pictureId</b> = document.getElementById('picture');
+        var pictureId = document.getElementById('picture');
 
  3. Define the options:
 	
         var options = {
-            picture: <b>pictureId</b>,
+            picture: pictureId,
             name: 'picture.jpg',
             path: '/assets/images/',
             resolutions: {
@@ -53,12 +53,12 @@ Basic Setup
 
  4. Pass the options to a newly created object:
 
-        var <b>Sizes</b> = new ImageSwap(options);
+        var Sizes = new ImageSwap(options);
 
  5. Optionally, call an update method on window resize event to see the changes right away:
  
         window.addEventListener('resize', function() {
-            <b>Sizes</b>.update();
+            Sizes.update();
         });
 
 Options
