@@ -1,12 +1,10 @@
 Image Swap
 ----------
-----------
 This is a simple library that handles changing src attribute on a selected image tag. To be used for a large heade images croped for diferent screen resolution.
 
 **NB!** This solution will not save the traffic. Large image will be loaded anyway.
 
 How it works
-------------
 ------------
 
 You should have something like that for you directory structure under the main image **path**:
@@ -29,7 +27,6 @@ This kind of automatic resize/cropping can be easily accomplished by folowwing G
 
 
 Basic Setup
------------
 ----------
  1. Include it on your page:	 
 
@@ -63,7 +60,6 @@ Basic Setup
         });
 
 Options
--------
 -------
 
 **picture** - ID of target <img> element.
