@@ -18,7 +18,7 @@ You should have something like that for you directory structure under the main i
     │   └── picture.jpg
     └── picture.jpg
 
-This kind of automatic resize/cropping can be easily accomplished by folowing Grunt and Gulp plugins:
+This kind of automatic resize/cropping can be easily accomplished by following Grunt and Gulp plugins:
 
  1. [grunt-responsive-images](https://github.com/andismith/grunt-responsive-images)
  2. [grunt-clowncar](https://npmjs.org/package/grunt-clowncar)
