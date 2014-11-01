@@ -32,7 +32,9 @@ Basic Setup
 
         <script type="text/javascript" src="image-swap.js"></script>
 
- 2. Get the image ID: 
+ 2. Get the image element:
+
+ 		<img id="picture" src=""/>
 
         var pictureId = document.getElementById('picture');
 
