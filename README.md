@@ -53,7 +53,7 @@ Basic Setup
 
         var Sizes = new ImageSwap(options);
 
- 5. Optionally, call update method on window resize event to see the changes right away:
+ 5. Optionally, call an update method on window resize event to see the changes right away:
  
         window.addEventListener('resize', function (event) {
             Sizes.update();
@@ -68,4 +68,4 @@ Options
 
 **path** - full path to the image.
 
-**resolutions** - definition of *small*, *medium* and *large* screen sizes. This number will append to your **path**.option.
+**resolutions** - definition of *small*, *medium* and *large* screen sizes. This number will append to your **path** option.
