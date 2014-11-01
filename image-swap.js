@@ -71,23 +71,3 @@
     window.ImageSwap = ImageSwap;
 
 })(window, document);
-
-var pictureId = document.getElementById('picture');
-
-var options = {
-    picture: pictureId,
-    name: 'picture.jpg',
-    path: '/assets/i/',
-    watch: true,
-    resolutions: {
-        small: 320,
-        medium: 1024,
-        large: 1350
-    }
-};
-
-var Sizes = new ImageSwap(options);
-
-window.addEventListener('resize', function (event) {
-    Sizes.update();
-});
