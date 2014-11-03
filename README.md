@@ -28,25 +28,25 @@ This kind of automatic resize/cropping can be easily accomplished by following G
 
 Basic Setup
 ----------
- 1. Include it on your page:	 
+ 1. Include it on your page:     
 
         <script type="text/javascript" src="image-swap.js"></script>
 
  2. Get the image element:
 
- 		<img id="picture" src=""/>
+        <img id="picture" src=""/>
 
         var pictureId = document.getElementById('picture');
 
  3. Define the options:
-	
+    
         var options = {
             picture: pictureId,
             name: 'picture.jpg',
             path: '/assets/images/',
             resolutions: {
-		large: 1024,
-		medium: 800,
+                large: 1024,
+                medium: 800,
                 small: 320
             }
         };
