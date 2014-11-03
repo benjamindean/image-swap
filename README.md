@@ -45,9 +45,9 @@ Basic Setup
             name: 'picture.jpg',
             path: '/assets/images/',
             resolutions: {
-                small: 320,
-                medium: 800,
-                large: 1024
+		large: 1024,
+		medium: 800,
+                small: 320
             }
         };
 
