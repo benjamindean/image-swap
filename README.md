@@ -12,9 +12,9 @@ You should have something like that for you directory structure under the main i
     .
     ├── 1024
     │   └── picture.jpg
-    ├── 320
-    │   └── picture.jpg
     ├── 800
+    │   └── picture.jpg
+    ├── 320
     │   └── picture.jpg
     └── picture.jpg
 
@@ -46,8 +46,8 @@ Basic Setup
             path: '/assets/images/',
             resolutions: {
                 small: 320,
-                medium: 1024,
-                large: 1350
+                medium: 800,
+                large: 1024
             }
         };
 
