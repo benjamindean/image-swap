@@ -23,6 +23,7 @@ This kind of automatic resize/cropping can be easily accomplished by following G
  1. [grunt-responsive-images](https://github.com/andismith/grunt-responsive-images)
  2. [grunt-clowncar](https://npmjs.org/package/grunt-clowncar)
  3. [gulp-responsive](https://github.com/mahnunchik/gulp-responsive)
+ 4. [gulp-image-resize](https://www.npmjs.com/package/gulp-image-resize)
 
 
 
