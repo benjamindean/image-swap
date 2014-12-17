@@ -7,7 +7,7 @@ This is a simple library that handles changing *src* attribute on a selected ima
 How it works
 ------------
 
-You should have something like that for you directory structure under the main image **path**:
+You should have something like this for you directory structure under the main image **path**:
 
     .
     ├── 1024
