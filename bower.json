@@ -1,0 +1,25 @@
+{
+  "name": "image-swap",
+  "main": "image-swap.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/benjamindean/image-swap",
+  "authors": [
+    "Benjamin Dean <berman.reshetnikov@gmail.com>"
+  ],
+  "description": "ImageSwap is a really simple and tiny pure JavaScript library for swapping image sources on different screen resolutions",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "responsive",
+    "resize",
+    "image",
+    "src",
+    "img",
+    "resolutions"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*"
+  ]
+}
